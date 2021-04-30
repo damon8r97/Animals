@@ -1,11 +1,10 @@
 class Birds:
-    def __init__(self):
-        ''' Constructor for the Bird Class '''
 
-        self.members = ['Sparrow', 'Robin', 'Duck']
+    def get_birds(self):
+        return ['Sparrow', 'Robin', 'Duck']
 
 
     def printMembers(self):
         print('Printing members of the Birds class')
-        for member in self.members:
+        for member in self.MEMBERS:
            print('\t%s ' % member)
